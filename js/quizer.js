@@ -995,6 +995,11 @@ let en_1980_m = [
 		pack : EN_1980_M_PACK_2,
 		group : "Billy Ocean",
 		song : "Caribbean Queen"
+	},
+	{
+		pack : EN_1980_M_PACK_2,
+		group : "Billy Ocean",
+		song : "Get Outta My Dreams, Get into My Car"
 	}
 ];
 
