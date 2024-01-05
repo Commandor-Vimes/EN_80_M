@@ -953,7 +953,7 @@ let en_1980_m = [
 	},
 	{
 		pack : EN_1980_M_PACK_5,
-		group : "Eros Ramazotti",
+		group : "Umberto Tozzi",
 		song : "Gloria"
 	},
 	{
