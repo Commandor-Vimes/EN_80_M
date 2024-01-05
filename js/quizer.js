@@ -942,12 +942,12 @@ let en_1980_m = [
 		song : "Puttin’ On The Ritz"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_2,
 		group : 'Rocky M',
 		song : "Disco Lady"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_2,
 		group : 'Rocky M',
 		song : "Fly with Me to Wonderland"
 	},
