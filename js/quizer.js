@@ -409,7 +409,8 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_4,
 		group : "Bobby Brown",
-		song : "My Prerogative"
+		song : "My Prerogative",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_1,
@@ -699,7 +700,8 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_4,
 		group : 'Morrissey',
-		song : "Everyday Is Like Sunday"
+		song : "Everyday Is Like Sunday",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_3,
@@ -749,27 +751,32 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_4,
 		group : "Rupert Holmes",
-		song : "Escape (The Pina Colada Song)"
+		song : "Escape (The Pina Colada Song)",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_4,
 		group : "Christopher Cross",
-		song : "Sailing"
+		song : "Sailing",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_4,
 		group : "Christopher Cross",
-		song : "Arthur's Theme (Best That You Can Do)"
+		song : "Arthur's Theme (Best That You Can Do)",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_4,
 		group : "Kenny Rogers",
-		song : "Lady"
+		song : "Lady",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_4,
 		group : "Kenny Rogers",
-		song : "Islands In The Stream"
+		song : "Islands In The Stream",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_1,
@@ -799,17 +806,20 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_4,
 		group : "Rick Springfield",
-		song : "Jessie's Girl"
+		song : "Jessie's Girl",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_4,
 		group : "Vangelis",
-		song : "Chariots Of Fire"
+		song : "Chariots Of Fire",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_4,
 		group : "John Waite",
-		song : "Missing You"
+		song : "Missing You",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_4,
@@ -834,7 +844,8 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_4,
 		group : "Howard Jones",
-		song : "What Is Love?"
+		song : "What Is Love?",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_4,
@@ -1000,6 +1011,11 @@ let en_1980_m = [
 		pack : EN_1980_M_PACK_2,
 		group : "Billy Ocean",
 		song : "Get Outta My Dreams, Get into My Car"
+	},
+	{
+		pack : EN_1980_M_PACK_3,
+		group : "Chris De Burgh",
+		song : "Lady In Red"
 	}
 ];
 
