@@ -960,6 +960,41 @@ let en_1980_m = [
 		pack : EN_1980_M_PACK_3,
 		group : "Herbie Hancock",
 		song : "Rockit"
+	},
+	{
+		pack : EN_1980_M_PACK_2,
+		group : "Mozzart",
+		song : "Money"
+	},
+	{
+		pack : EN_1980_M_PACK_2,
+		group : "Mozzart",
+		song : "In China"
+	},
+	{
+		pack : EN_1980_M_PACK_2,
+		group : "Michael Bedford",
+		song : "Tonight"
+	},
+	{
+		pack : EN_1980_M_PACK_2,
+		group : "Michael Bedford",
+		song : "More Than A Kiss"
+	},
+	{
+		pack : EN_1980_M_PACK_2,
+		group : "Michael Bedford",
+		song : "Space Boys"
+	},
+	{
+		pack : EN_1980_M_PACK_2,
+		group : "Billy Ocean",
+		song : "Loverboy"
+	},
+	{
+		pack : EN_1980_M_PACK_2,
+		group : "Billy Ocean",
+		song : "Caribbean Queen"
 	}
 ];
 
