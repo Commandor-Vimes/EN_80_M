@@ -501,7 +501,8 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_3,
 		group : "Chris De Burgh",
-		song : "Missing you"
+		song : "Missing you",
+		year : 1988
 	},
 	{
 		pack : EN_1980_M_PACK_3,
@@ -1017,12 +1018,6 @@ let en_1980_m = [
 		pack : EN_1980_M_PACK_3,
 		group : "Chris De Burgh",
 		song : "Lady In Red"
-	},
-	{
-		pack : EN_1980_M_PACK_3,
-		group : "Chris De Burgh",
-		song : "Missing You",
-		year : 1988
 	},
 	{
 		pack : EN_1980_M_PACK_3,
