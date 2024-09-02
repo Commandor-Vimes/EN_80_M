@@ -972,7 +972,8 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_3,
 		group : "Herbie Hancock",
-		song : "Rockit"
+		song : "Rockit",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_2,
