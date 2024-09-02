@@ -1024,6 +1024,12 @@ let en_1980_m = [
 		group : "Chris De Burgh",
 		song : "Moonlight and Vodka",
 		year : 1984
+	},
+	{
+		pack : EN_1980_M_PACK_5,
+		group : "Zucchero",
+		song : "Sensa una Donna",
+		year : 1987
 	}
 ];
 
