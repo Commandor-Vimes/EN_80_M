@@ -1023,14 +1023,17 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_3,
 		group : "Chris De Burgh",
-		song : "Moonlight and Vodka",
-		year : 1984
+		song : "Moonlight and Vodka (1984)"
 	},
 	{
 		pack : EN_1980_M_PACK_5,
 		group : "Zucchero",
-		song : "Sensa una Donna",
-		year : 1987
+		song : "Sensa una Donna (1987)"
+	},
+	{
+		pack : EN_1980_M_PACK_3,
+		group : "Roy Orbison",
+		song : "Oh Pretty Woman (1989)"
 	}
 ];
 
