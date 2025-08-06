@@ -1035,6 +1035,11 @@ let en_1980_m = [
 		pack : EN_1980_M_PACK_3,
 		group : "Roy Orbison",
 		song : "Oh Pretty Woman (1989)"
+	},
+	{
+		pack : EN_1980_M_PACK_2,
+		group : "Ryan Paris",
+		song : "Dolce Vita (1984)"
 	}
 ];
 
