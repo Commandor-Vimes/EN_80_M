@@ -582,12 +582,14 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_2,
 		group : 'Rick Astley',
-		song : "Never Gonna Give You Up"
+		song : "Never Gonna Give You Up",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_2,
 		group : 'Rick Astley',
-		song : "Together Forever"
+		song : "Together Forever",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_2,
@@ -607,7 +609,8 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_2,
 		group : "Jermaine Jackson",
-		song : "When the Rain Begins to Fall (ft Pia Zadora)"
+		song : "When the Rain Begins to Fall (ft Pia Zadora)",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_2,
@@ -642,7 +645,8 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_5,
 		group : "Detto Mariano",
-		song : "La pigiatura (ft Clown, Patrizia Tapparelli)"
+		song : "La pigiatura (ft Clown, Patrizia Tapparelli)",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_5,
@@ -677,12 +681,14 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_2,
 		group : "FRDavid",
-		song : "Words"
+		song : "Words",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_2,
 		group : "FRDavid",
-		song : "Pick Up the Phone"
+		song : "Pick Up the Phone",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_1,
