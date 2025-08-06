@@ -852,7 +852,8 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_4,
 		group : "Dave Stewart",
-		song : "Lily Was Here (ft Candy Dulfer)"
+		song : "Lily Was Here (ft Candy Dulfer)",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_1,
