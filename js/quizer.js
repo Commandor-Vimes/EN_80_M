@@ -693,17 +693,20 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_1,
 		group : 'Michael Jackson',
-		song : "Billie Jean"
+		song : "Billie Jean",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_1,
 		group : 'Michael Jackson',
-		song : "Beat It"
+		song : "Beat It",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_1,
 		group : 'Michael Jackson',
-		song : "Smooth Criminal"
+		song : "Smooth Criminal",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_4,
@@ -1035,7 +1038,7 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_5,
 		group : "Zucchero",
-		song : "Sensa una Donna (1987)"
+		song : "Senza una Donna (1987)"
 	},
 	{
 		pack : EN_1980_M_PACK_3,
@@ -1046,6 +1049,16 @@ let en_1980_m = [
 		pack : EN_1980_M_PACK_2,
 		group : "Ryan Paris",
 		song : "Dolce Vita (1984)"
+	},
+	{
+		pack : EN_1980_M_PACK_5,
+		group : "Zucchero",
+		song : "Diamante (1989)"
+	},
+	{
+		pack : EN_1980_M_PACK_5,
+		group : "Zucchero",
+		song : "Pippo (1987)"
 	}
 ];
 
