@@ -342,759 +342,1143 @@ function load(){
 }
 
 // EN songs
-const en_1980_m_icon = [
-	'easy',
-	'medium',
-	'hard',
-	'disco',
-	'italo_disco'
+const en_1980_gr_icon = [
+	'pop_rock',
+	'rock',
+	'pop_medium',
+	'pop_hard',
+	'disco'
 ];
 
-const EN_1980_M_PACK_1 = 1;
-const EN_1980_M_PACK_2 = 4;
-const EN_1980_M_PACK_3 = 2;
-const EN_1980_M_PACK_4 = 3;
-const EN_1980_M_PACK_5 = 5;
+const EN_1980_GR_PACK_1 = 1;
+const EN_1980_GR_PACK_2 = 2;
+const EN_1980_GR_PACK_3 = 4;
+const EN_1980_GR_PACK_4 = 3;
+const EN_1980_GR_PACK_5 = 5;
 
-let en_1980_m = [
+let en_1980_gr = [
 	{
-		pack : EN_1980_M_PACK_1,
-		group : 'Bruce Springsteen',
-		song : "Dancing In the Dark"
+		pack : EN_1980_GR_PACK_1,
+		group : 'Bon Jovi',
+		song : "You Give Love A Bad Name"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
-		group : 'Bruce Springsteen',
-		song : "Born in the U.S.A."
+		pack : EN_1980_GR_PACK_1,
+		group : 'Bon Jovi',
+		song : "Livin' On A Prayer"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : 'Richard Marx',
-		song : "Right Here Waiting"
-	},
-	{
-		pack : EN_1980_M_PACK_4,
-		group : 'Willie Nelson',
-		song : "Always On My Mind"
-	},
-	{
-		pack : EN_1980_M_PACK_3,
-		group : "Roy Orbison",
-		song : "You Got It"
-	},
-	{
-		pack : EN_1980_M_PACK_3,
-		group : 'Stevie Wonder',
-		song : "Ebony And Ivory (ft Paul McCartney)"
-	},
-	{
-		pack : EN_1980_M_PACK_4,
-		group : 'Bob Marley',
-		song : "Redemption Song (ft The Wailers)"
-	},
-	{
-		pack : EN_1980_M_PACK_4,
-		group : 'Bob Marley',
-		song : "Could You be Loved (ft The Wailers)"
-	},
-	{
-		pack : EN_1980_M_PACK_4,
-		group : 'Willie Nelson',
-		song : "Seven Spanish Angels (ft Ray Charles)"
-	},
-	{
-		pack : EN_1980_M_PACK_1,
-		group : "Bobby McFerrin",
-		song : "Dont Worry, Be Happy"
-	},
-	{
-		pack : EN_1980_M_PACK_4,
-		group : "Bobby Brown",
-		song : "My Prerogative",
+		pack : EN_1980_GR_PACK_1,
+		group : 'Survivor',
+		song : "Burning Heart",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_1,
-		group : "Nik Kershaw",
-		song : "I Won't Let The Sun Go Down On Me"
+		pack : EN_1980_GR_PACK_1,
+		group : 'Survivor',
+		song : "Eye Of The Tiger",
+		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_1,
-		group : "Nik Kershaw",
-		song : "The Riddle"
+		pack : EN_1980_GR_PACK_1,
+		group : 'Twisted Sister',
+		song : "We're Not Gonna Take It"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
-		group : "Bryan Adams",
-		song : "Summer Of '69"
+		pack : EN_1980_GR_PACK_1,
+		group : 'Kiss',
+		song : "Heaven's On Fire",
+		year : 1984
 	},
 	{
-		pack : EN_1980_M_PACK_1,
-		group : "Phil Collins",
-		song : "In The Air Tonight"
+		pack : EN_1980_GR_PACK_1,
+		group : "Clash",
+		song : "Should I Stay or Should I Go"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
-		group : "Phil Collins",
-		song : "One More Night"
+		pack : EN_1980_GR_PACK_1,
+		group : "Clash",
+		song : "Rock the Casbah"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
-		group : "Bryan Adams",
-		song : "Heaven"
+		pack : EN_1980_GR_PACK_4,
+		group : "Duran Duran",
+		song : "Rio",
+		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_1,
-		group : 'Bruce Springsteen',
-		song : "I'm on Fire"
+		pack : EN_1980_GR_PACK_4,
+		group : "Duran Duran",
+		song : "A View to a Kill"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : 'Stevie Wonder',
-		song : "Master Blaster (Jammin')"
+		pack : EN_1980_GR_PACK_4,
+		group : "Duran Duran",
+		song : "The Reflex"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : 'Stevie Wonder',
-		song : "I Just Called To Say I Love You"
+		pack : EN_1980_GR_PACK_1,
+		group : "U2",
+		song : "I Still Haven't Found What I'm Looking For"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Lionel Richie",
-		song : "Truly"
+		pack : EN_1980_GR_PACK_1,
+		group : "U2",
+		song : "With Or Without You"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Lionel Richie",
-		song : "Hello"
+		pack : EN_1980_GR_PACK_1,
+		group : "REM",
+		song : "Orange Crush"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
-		group : "Phil Collins",
-		song : "Another Day In Paradise"
+		pack : EN_1980_GR_PACK_1,
+		group : "Blondie",
+		song : "Call Me"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Chris Norman",
-		song : "Stumblin' In"
+		pack : EN_1980_GR_PACK_1,
+		group : "Blondie",
+		song : "The Tide Is High"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Billy Joel",
-		song : "A matter of trust"
+		pack : EN_1980_GR_PACK_1,
+		group : "Roxette",
+		song : "Listen To Your Heart",
+		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Billy Joel",
-		song : "It’s still rock and roll to me"
+		pack : EN_1980_GR_PACK_1,
+		group : "Cure",
+		song : "Close To Me"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Billy Joel",
-		song : "Uptown girl"
+		pack : EN_1980_GR_PACK_1,
+		group : "INXS",
+		song : "Devil Inside"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Bryan Ferry",
-		song : "Don’t stop the dance"
+		pack : EN_1980_GR_PACK_1,
+		group : 'Bon Jovi',
+		song : "Bed Of Roses"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Chris De Burgh",
-		song : "Missing you",
+		pack : EN_1980_GR_PACK_1,
+		group : 'Dire Straits',
+		song : "Solid Rock",
+		ignore : true
+	},
+	{
+		pack : EN_1980_GR_PACK_1,
+		group : 'Dire Straits',
+		song : "Brothers In Arms",
+		ignore : true
+	},
+	{
+		pack : EN_1980_GR_PACK_1,
+		group : 'Dire Straits',
+		song : "Money For Nothing (1985)"
+	},
+	{
+		pack : EN_1980_GR_PACK_1,
+		group : 'Twisted Sister',
+		song : "I Wanna Rock"
+	},
+	{
+		pack : EN_1980_GR_PACK_1,
+		group : "U2",
+		song : "Sunday Bloody Sunday"
+	},
+	{
+		pack : EN_1980_GR_PACK_1,
+		group : "Blondie",
+		song : "One Way Or Another"
+	},
+	{
+		pack : EN_1980_GR_PACK_1,
+		group : "Cure",
+		song : "Lullaby"
+	},
+	{
+		pack : EN_1980_GR_PACK_1,
+		group : "Cure",
+		song : "Friday I'm In Love"
+	},
+	{
+		pack : EN_1980_GR_PACK_1,
+		group : "INXS",
+		song : "Never Tear Us Apart"
+	},
+	{
+		pack : EN_1980_GR_PACK_1,
+		group : "INXS",
+		song : "Need You Tonight"
+	},
+	{
+		pack : EN_1980_GR_PACK_1,
+		group : "Crowded House",
+		song : "Don't Dream It's Over"
+	},
+	{
+		pack : EN_1980_GR_PACK_1,
+		group : 'Kiss',
+		song : "I Was Made for Loving You",
+		year : 1979,
+		ignore : true
+	},
+	{
+		pack : EN_1980_GR_PACK_1,
+		group : 'Kiss',
+		song : "Rock And Roll All Nite",
+		year : 1975,
+		ignore : true
+	},
+	{
+		pack : EN_1980_GR_PACK_1,
+		group : "REM",
+		song : "Its The End Of The World As We Know It (And I Feel Fine)"
+	},
+	{
+		pack : EN_1980_GR_PACK_1,
+		group : "REM",
+		song : "The One I Love"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : 'Scorpions',
+		song : "Rock You Like a Hurricane",
+		ignore : true
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : 'Def Leppard',
+		song : "Pour Some Sugar on Me",
 		year : 1988
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Chris Isaak",
-		song : "Wicked game"
+		pack : EN_1980_GR_PACK_2,
+		group : 'Metallica',
+		song : "Master Of Puppets"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Chris Norman",
-		song : "Hunters of the Night"
+		pack : EN_1980_GR_PACK_2,
+		group : 'Metallica',
+		song : "Seek & Destroy"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Chris Norman",
-		song : "Midnight lady"
+		pack : EN_1980_GR_PACK_2,
+		group : 'Iron Maiden',
+		song : "The Trooper"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Chris Rea",
-		song : "Looking for the summer"
+		pack : EN_1980_GR_PACK_2,
+		group : "Guns N Roses",
+		song : "Sweet Child O' Mine"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Chris Rea",
-		song : "The road to hell"
+		pack : EN_1980_GR_PACK_2,
+		group : "Guns N Roses",
+		song : "Welcome To The Jungle"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
-		group : "George Michael",
-		song : "Faith"
-	},
-	{
-		pack : EN_1980_M_PACK_1,
-		group : "George Michael",
-		song : "Careless Whisper"
-	},
-	{
-		pack : EN_1980_M_PACK_1,
-		group : "George Harrison",
-		song : "Got My Mind Set On You"
-	},
-	{
-		pack : EN_1980_M_PACK_3,
-		group : "Joe Esposito",
-		song : "You're The Best Around"
-	},
-	{
-		pack : EN_1980_M_PACK_1,
-		group : "Joe Cocker",
-		song : "Unchain my heart"
-	},
-	{
-		pack : EN_1980_M_PACK_1,
-		group : "Joe Cocker",
-		song : "Up where we belong"
-	},
-	{
-		pack : EN_1980_M_PACK_3,
-		group : "Lionel Richie",
-		song : "Say you. say me"
-	},
-	{
-		pack : EN_1980_M_PACK_1,
-		group : "Leonard Cohen",
-		song : "Hallelujah"
-	},
-	{
-		pack : EN_1980_M_PACK_1,
-		group : "Paul McCartney",
-		song : "Coming up"
-	},
-	{
-		pack : EN_1980_M_PACK_1,
-		group : "Paul McCartney",
-		song : "Say Say Say (ft Michael Jackson)"
-	},
-	{
-		pack : EN_1980_M_PACK_2,
-		group : 'Rick Astley',
-		song : "Never Gonna Give You Up",
+		pack : EN_1980_GR_PACK_2,
+		group : 'ACDC',
+		song : "Hells Bells",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_2,
-		group : 'Rick Astley',
-		song : "Together Forever",
+		pack : EN_1980_GR_PACK_2,
+		group : 'ACDC',
+		song : "You Shook Me All Night Long",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_2,
-		group : 'Eddy Huntington',
-		song : "USSR"
+		pack : EN_1980_GR_PACK_2,
+		group : 'Judas Priest',
+		song : "Breaking the Law (1980)"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
-		group : 'Eddy Huntington',
-		song : "Up And Down"
+		pack : EN_1980_GR_PACK_2,
+		group : 'Anthrax',
+		song : "A.I.R."
 	},
 	{
-		pack : EN_1980_M_PACK_2,
-		group : 'Eddy Huntington',
-		song : "Honey, Honey!"
-	},
-	{
-		pack : EN_1980_M_PACK_2,
-		group : "Jermaine Jackson",
-		song : "When the Rain Begins to Fall (ft Pia Zadora)",
+		pack : EN_1980_GR_PACK_2,
+		group : "Pink Floyd",
+		song : "Another Brick In The Wall, Pt. 2",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_2,
-		group : "Savage",
-		song : "Goodbye"
+		pack : EN_1980_GR_PACK_2,
+		group : "Alice Cooper",
+		song : "Bed of Nails"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
-		group : "Savage",
-		song : "Don'T Cry Tonight"
+		pack : EN_1980_GR_PACK_2,
+		group : "Whitesnake",
+		song : "Here I Go Again"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
-		group : "Savage",
-		song : "Radio"
-	},
-	{
-		pack : EN_1980_M_PACK_2,
-		group : "Mozzart",
-		song : "Jasmin China Girl"
-	},
-	{
-		pack : EN_1980_M_PACK_2,
-		group : "Gazebo",
-		song : "I Like Chopin"
-	},
-	{
-		pack : EN_1980_M_PACK_2,
-		group : "Gazebo",
-		song : "Masterpiece"
-	},
-	{
-		pack : EN_1980_M_PACK_5,
-		group : "Detto Mariano",
-		song : "La pigiatura (ft Clown, Patrizia Tapparelli)",
+		pack : EN_1980_GR_PACK_2,
+		group : "Aerosmith",
+		song : "Lightning Strikes",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_5,
-		group : "Adriano Celentano",
-		song : "Uh Uh"
-	},
-	{
-		pack : EN_1980_M_PACK_5,
-		group : "Adriano Celentano",
-		song : "Soli"
-	},
-	{
-		pack : EN_1980_M_PACK_5,
-		group : "Adriano Celentano",
-		song : "Susanna"
-	},
-	{
-		pack : EN_1980_M_PACK_5,
-		group : "Toto Cutugno",
-		song : "L'italiano"
-	},
-	{
-		pack : EN_1980_M_PACK_5,
-		group : "Toto Cutugno",
-		song : "Solo Noi"
-	},
-	{
-		pack : EN_1980_M_PACK_5,
-		group : "Toto Cutugno",
-		song : "Enamorados"
-	},
-	{
-		pack : EN_1980_M_PACK_2,
-		group : "FRDavid",
-		song : "Words",
+		pack : EN_1980_GR_PACK_2,
+		group : "Aerosmith",
+		song : "Let The Music Do The Talking",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_2,
-		group : "FRDavid",
-		song : "Pick Up the Phone",
+		pack : EN_1980_GR_PACK_2,
+		group : "Aerosmith",
+		song : "Janie's Got A Gun",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_1,
-		group : 'Michael Jackson',
-		song : "Billie Jean",
+		pack : EN_1980_GR_PACK_2,
+		group : "Whitesnake",
+		song : "Is this love"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : 'Rolling Stones',
+		song : "Start Me Up",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_1,
-		group : 'Michael Jackson',
-		song : "Beat It",
+		pack : EN_1980_GR_PACK_2,
+		group : 'Metallica',
+		song : "Battery"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : 'Iron Maiden',
+		song : "Run To The Hills"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : 'Iron Maiden',
+		song : "2 Minutes To Midnight"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : "Guns N Roses",
+		song : "Knockin' On Heaven's Door"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : 'ACDC',
+		song : "Back In Black",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_1,
-		group : 'Michael Jackson',
-		song : "Smooth Criminal",
+		pack : EN_1980_GR_PACK_2,
+		group : "Alice Cooper",
+		song : "Poison"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : "Queen",
+		song : "A Kind Of Magic"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : "Queen",
+		song : "Crazy Little Thing Called Love"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : "Queen",
+		song : "Another One Bites The Dust"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : "ZZ Top",
+		song : "Sharp Dressed Man"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : "ZZ Top",
+		song : "Gimme All Your Lovin'"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : "Dio",
+		song : "Rainbow In The Dark (1983)"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Police',
+		song : "Every Breath You Take"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Police',
+		song : "Roxanne"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Police',
+		song : "Message In A Bottle"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'New Order',
+		song : "Blue Monday"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'New Order',
+		song : "Age Of Consent"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : 'Toto',
+		song : "Africa",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_4,
-		group : 'Morrissey',
-		song : "Everyday Is Like Sunday",
+		pack : EN_1980_GR_PACK_4,
+		group : 'Van Halen',
+		song : "Jump",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Kenny Loggins",
-		song : "Footloose"
+		pack : EN_1980_GR_PACK_4,
+		group : 'UB40',
+		song : "Red Red Wine"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : 'George Thorogood',
-		song : "Bad To The Bone"
+		pack : EN_1980_GR_PACK_4,
+		group : 'Wham',
+		song : "Wake Me Up Before You Go-Go"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : 'Ozzy Osbourne',
-		song : "Crazy Train"
+		pack : EN_1980_GR_PACK_4,
+		group : 'Wham',
+		song : "Young Guns (Go For It!)"
 	},
 	{
-		pack : EN_1980_M_PACK_4,
-		group : 'Danzig',
-		song : "Mother"
+		pack : EN_1980_GR_PACK_4,
+		group : 'Genesis',
+		song : "Land Of Confusion"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Prince",
-		song : "When Doves Cry"
+		pack : EN_1980_GR_PACK_3,
+		group : 'Flock Of Seagulls',
+		song : "I Ran"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Prince",
-		song : "Purple Rain"
+		pack : EN_1980_GR_PACK_4,
+		group : 'Daryl Hall & John Oates',
+		song : "Private Eyes"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Prince",
-		song : "Raspberry Beret"
+		pack : EN_1980_GR_PACK_4,
+		group : 'Daryl Hall & John Oates',
+		song : "Maneater"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
-		group : "Freddie Mercury",
-		song : "Living on my own"
+		pack : EN_1980_GR_PACK_4,
+		group : 'Daryl Hall & John Oates',
+		song : "Out of Touch"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
-		group : "Freddie Mercury",
-		song : "The great pretender"
+		pack : EN_1980_GR_PACK_3,
+		group : 'Soul II Soul',
+		song : "Back to Life (ft Caron Wheeler)"
 	},
 	{
-		pack : EN_1980_M_PACK_4,
-		group : "Rupert Holmes",
-		song : "Escape (The Pina Colada Song)",
+		pack : EN_1980_GR_PACK_4,
+		group : 'Men At Work',
+		song : "Down Under"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : 'Men At Work',
+		song : "Who Can It Be Now?"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Beach Boys',
+		song : "Wipeout (ft Fat Boys)",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_4,
-		group : "Christopher Cross",
-		song : "Sailing",
+		pack : EN_1980_GR_PACK_4,
+		group : 'Simple Minds',
+		song : "Don't You"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : 'Tears For Fears',
+		song : "Everybody Wants to Rule the World"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : 'Tears For Fears',
+		song : "Shout"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : 'Bangles',
+		song : "Walk Like an Egyptian"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : 'Bangles',
+		song : "Manic Monday"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : "Go-Go's",
+		song : "Vacation"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : "Eurythmix",
+		song : "Sweet Dreams"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : "Eurythmix",
+		song : "Love Is a Stranger"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : "Outfield",
+		song : "Your Love"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : "Earth Wind & Fire",
+		song : "Let's Groove"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : "Europe",
+		song : "The Final Countdown"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : "Europe",
+		song : "Carrie"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : "Genesis",
+		song : "In Too Deep"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : "Genesis",
+		song : "Invisible touch"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : "Flock Of Seagulls",
+		song : "Wishing (If I Had A Photograph Of You)"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : 'Tears For Fears',
+		song : "Mad world"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : 'Men At Work',
+		song : "It’s a mistake"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : 'UB40',
+		song : "I'll Be Your Baby Tonight (ft Robert Palmer)"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : 'UB40',
+		song : "Kingston Town"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : 'Eurythmix',
+		song : "There must be an angel"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : 'Wham',
+		song : "Everything She Wants"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : 'Yazoo',
+		song : "Don't Go"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : 'Yazoo',
+		song : "Only You"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : 'Black',
+		song : "Wonderful Life"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Run-DMC',
+		song : "It's Like That"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'NWA',
+		song : "Gangsta Gangsta"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Technotronic',
+		song : "Pump Up The Jam"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : 'Soft Cell',
+		song : "Tainted Love"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : 'Cutting Crew',
+		song : "I Just Died in Your Arms Tonight",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_4,
-		group : "Christopher Cross",
-		song : "Arthur's Theme (Best That You Can Do)",
+		pack : EN_1980_GR_PACK_5,
+		group : 'A-Ha',
+		song : "Take On Me",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_4,
-		group : "Kenny Rogers",
-		song : "Lady",
+		pack : EN_1980_GR_PACK_5,
+		group : 'Lipps Inc',
+		song : "Funkytown"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : 'Culture Club',
+		song : "Karma Chameleon"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : 'Foreigner',
+		song : "I Want To Know What Love Is"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : 'Foreigner',
+		song : "Urgent"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : 'Level 42',
+		song : "Lessons In Love"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : 'Pointer Sisters',
+		song : "I'm So Excited"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : 'Ultravox',
+		song : "Dancing With Tears In My Eyes (1984)"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : 'Bronski Beat',
+		song : "Smalltown Boy"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "A La Carte",
+		song : "Ring Me Honey"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "Opus",
+		song : "Life Is Life"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "Digital Emotion",
+		song : "Get Up Action",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_4,
-		group : "Kenny Rogers",
-		song : "Islands In The Stream",
+		pack : EN_1980_GR_PACK_5,
+		group : "Digital Emotion",
+		song : "Go Go Yellow Screen",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_1,
-		group : "John Lennon",
-		song : "(Just Like) Starting Over"
-	},
-	{
-		pack : EN_1980_M_PACK_1,
-		group : "John Lennon",
-		song : "Woman"
-	},
-	{
-		pack : EN_1980_M_PACK_1,
-		group : "Elton John",
-		song : "Sacrifice"
-	},
-	{
-		pack : EN_1980_M_PACK_1,
-		group : "Elton John",
-		song : "Candle In The Wind"
-	},
-	{
-		pack : EN_1980_M_PACK_1,
-		group : "Elton John",
-		song : "I'm Still Standing"
-	},
-	{
-		pack : EN_1980_M_PACK_4,
-		group : "Rick Springfield",
-		song : "Jessie's Girl",
+		pack : EN_1980_GR_PACK_5,
+		group : "Baccara",
+		song : "Yes Sir, I Can Boogie",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_4,
-		group : "Vangelis",
-		song : "Chariots Of Fire",
+		pack : EN_1980_GR_PACK_5,
+		group : "Baccara",
+		song : "Sorry, I'm a Lady",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_4,
-		group : "John Waite",
-		song : "Missing You",
+		pack : EN_1980_GR_PACK_5,
+		group : "Blue System",
+		song : "My Bed Is Too Big",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_4,
-		group : "Marvin Gaye",
-		song : "Sexual Healing"
+		pack : EN_1980_GR_PACK_5,
+		group : "London Boys",
+		song : "London Nights"
 	},
 	{
-		pack : EN_1980_M_PACK_4,
-		group : "Tom Petty",
-		song : "Free Fallin'"
+		pack : EN_1980_GR_PACK_5,
+		group : "Al Bano & Romina Power",
+		song : "Al ritmo di beguine (ti amo)"
 	},
 	{
-		pack : EN_1980_M_PACK_4,
-		group : "Tom Petty",
-		song : "I Won't Back Down"
+		pack : EN_1980_GR_PACK_5,
+		group : "Al Bano & Romina Power",
+		song : "Felicita"
 	},
 	{
-		pack : EN_1980_M_PACK_4,
-		group : "Tom Petty",
-		song : "American Girl (ft The Heartbreakers)"
+		pack : EN_1980_GR_PACK_5,
+		group : "Al Bano & Romina Power",
+		song : "Liberta"
 	},
 	{
-		pack : EN_1980_M_PACK_4,
-		group : "Howard Jones",
-		song : "What Is Love?",
+		pack : EN_1980_GR_PACK_5,
+		group : "Goombay Dance Band",
+		song : "Seven Tears"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "Ricchi E Poveri",
+		song : "Mamma Maria"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "Ricchi E Poveri",
+		song : "Piccolo Amore"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "Ricchi E Poveri",
+		song : "Voulez-Vous Danser"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "Baby's Gang",
+		song : "Challenger"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "Righeira",
+		song : "Vamos A La Playa"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "ELO (Electric Light Orchestra)",
+		song : "Don't Bring Me Down"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "ELO (Electric Light Orchestra)",
+		song : "Here Is The News"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "ELO (Electric Light Orchestra)",
+		song : "Ticket To The Moon"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "Spandau Ballet",
+		song : "True"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "Spandau Ballet",
+		song : "To Cut A Long Story Short"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "Berlin",
+		song : "Take My Breath Away"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "Laid back",
+		song : "Sunshine reggae"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "Laid back",
+		song : "Elevator Boy",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_4,
-		group : "Dave Stewart",
-		song : "Lily Was Here (ft Candy Dulfer)",
+		pack : EN_1980_GR_PACK_5,
+		group : 'Culture Club',
+		song : "Do You Really Want to Hurt Me"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : 'Yazz',
+		song : "The Only Way Is Up (ft The Plastic Population)"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : 'Chicago',
+		song : "Hard To Say I'M Sorry"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : 'Bangles',
+		song : "Eternal Flame"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Salt-N-Pepa',
+		song : "Push It"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Salt-N-Pepa',
+		song : "Shake Your Thang (ft E.U.)"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Salt-N-Pepa',
+		song : "Expression"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : 'Europe',
+		song : "Rock the Night"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Yello',
+		song : "The Race"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Yello',
+		song : "Oh Yeah"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : 'Videokids',
+		song : "Woodpeckers From Space",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_1,
-		group : "Sting",
-		song : "Englishman In New York"
-	},
-	{
-		pack : EN_1980_M_PACK_1,
-		group : "Sting",
-		song : "Fields Of Gold"
-	},
-	{
-		pack : EN_1980_M_PACK_1,
-		group : "Sting",
-		song : "Fragile"
-	},
-	{
-		pack : EN_1980_M_PACK_3,
-		group : "Billy Idol",
-		song : "Rebel Yell"
-	},
-	{
-		pack : EN_1980_M_PACK_3,
-		group : "Billy Idol",
-		song : "Dancing With Myself"
-	},
-	{
-		pack : EN_1980_M_PACK_3,
-		group : "Billy Idol",
-		song : "White Wedding"
-	},
-	{
-		pack : EN_1980_M_PACK_3,
-		group : "David Bowie",
-		song : "Changes"
-	},
-	{
-		pack : EN_1980_M_PACK_3,
-		group : "David Bowie",
-		song : "The Man Who Sold The World"
-	},
-	{
-		pack : EN_1980_M_PACK_3,
-		group : "David Bowie",
-		song : "China Girl"
-	},
-	{
-		pack : EN_1980_M_PACK_5,
-		group : "Pupo",
-		song : "Gelato al cioccolato"
-	},
-	{
-		pack : EN_1980_M_PACK_5,
-		group : "Pupo",
-		song : "Burattino Telecomandato"
-	},
-	{
-		pack : EN_1980_M_PACK_5,
-		group : "Pupo",
-		song : "Su Di Noi"
-	},
-	{
-		pack : EN_1980_M_PACK_5,
-		group : "Riccardo Fogli",
-		song : "Malinconia"
-	},
-	{
-		pack : EN_1980_M_PACK_5,
-		group : "Riccardo Fogli",
-		song : "Storie di tutti i giorni"
-	},
-	{
-		pack : EN_1980_M_PACK_5,
-		group : "Umberto Tozzi",
-		song : "Tu"
-	},
-	{
-		pack : EN_1980_M_PACK_5,
-		group : "Umberto Tozzi",
-		song : "Ti amo"
-	},
-	{
-		pack : EN_1980_M_PACK_5,
-		group : "Eros Ramazotti",
-		song : "Ad un amico"
-	},
-	{
-		pack : EN_1980_M_PACK_5,
-		group : "Eros Ramazotti",
-		song : "La Luce Buona Delle Stelle"
-	},
-	{
-		pack : EN_1980_M_PACK_3,
-		group : "Bryan Ferry",
-		song : "Slave To Love"
-	},
-	{
-		pack : EN_1980_M_PACK_1,
-		group : "Taco",
-		song : "Puttin’ On The Ritz"
-	},
-	{
-		pack : EN_1980_M_PACK_2,
-		group : 'Rocky M',
-		song : "Disco Lady"
-	},
-	{
-		pack : EN_1980_M_PACK_2,
-		group : 'Rocky M',
-		song : "Fly with Me to Wonderland"
-	},
-	{
-		pack : EN_1980_M_PACK_5,
-		group : "Umberto Tozzi",
-		song : "Gloria"
-	},
-	{
-		pack : EN_1980_M_PACK_3,
-		group : "Herbie Hancock",
-		song : "Rockit",
+		pack : EN_1980_GR_PACK_5,
+		group : 'Videokids',
+		song : "Do The Rap",
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_2,
-		group : "Mozzart",
-		song : "Money"
+		pack : EN_1980_GR_PACK_5,
+		group : 'Videokids',
+		song : "Communication Outer Space",
+		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_2,
-		group : "Mozzart",
-		song : "In China"
+		pack : EN_1980_GR_PACK_3,
+		group : 'Technotronic',
+		song : "Get Up (Before The Night Is Over)"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
-		group : "Michael Bedford",
-		song : "Tonight"
+		pack : EN_1980_GR_PACK_5,
+		group : "Laid back",
+		song : "High Society Girl"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
-		group : "Michael Bedford",
-		song : "More Than A Kiss"
+		pack : EN_1980_GR_PACK_5,
+		group : "Johnny Hates Jazz",
+		song : "Shattered Dreams"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
-		group : "Michael Bedford",
-		song : "Space Boys"
+		pack : EN_1980_GR_PACK_4,
+		group : "Duran Duran",
+		song : "Wild boys"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
-		group : "Billy Ocean",
-		song : "Loverboy"
+		pack : EN_1980_GR_PACK_3,
+		group : 'Yello',
+		song : "Vicious games (1985)"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
-		group : "Billy Ocean",
-		song : "Caribbean Queen"
+		pack : EN_1980_GR_PACK_5,
+		group : "Shorts",
+		song : "Comment ça va (1983)"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
-		group : "Billy Ocean",
-		song : "Get Outta My Dreams, Get into My Car"
+		pack : EN_1980_GR_PACK_3,
+		group : 'KC & The Sunshine Band',
+		song : "Give It Up (1982)"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Chris De Burgh",
-		song : "Lady In Red"
+		pack : EN_1980_GR_PACK_3,
+		group : 'KC & The Sunshine Band',
+		song : "That's the Way (I Like It) (1975)"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Chris De Burgh",
-		song : "Moonlight and Vodka (1984)"
+		pack : EN_1980_GR_PACK_2,
+		group : "Motley Crue",
+		song : "Kickstart My Heart (1989)"
 	},
 	{
-		pack : EN_1980_M_PACK_5,
-		group : "Zucchero",
-		song : "Senza una Donna (1987)"
+		pack : EN_1980_GR_PACK_2,
+		group : "Motley Crue",
+		song : "Dr. Feelgood (1989)"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
-		group : "Roy Orbison",
-		song : "Oh Pretty Woman (1989)"
+		pack : EN_1980_GR_PACK_3,
+		group : "ABC",
+		song : "When Smokey Sings (1987)"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
-		group : "Ryan Paris",
-		song : "Dolce Vita (1984)"
+		pack : EN_1980_GR_PACK_1,
+		group : "Air Supply",
+		song : "Making Love Out of Nothing At All (1983)"
 	},
 	{
-		pack : EN_1980_M_PACK_5,
-		group : "Zucchero",
-		song : "Diamante (1989)"
+		pack : EN_1980_GR_PACK_1,
+		group : "Air Supply",
+		song : "All Out of Love (1980)"
 	},
 	{
-		pack : EN_1980_M_PACK_5,
-		group : "Zucchero",
-		song : "Pippo (1987)"
+		pack : EN_1980_GR_PACK_3,
+		group : "Fleetwood Mac",
+		song : "Everywhere (1987)"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : "Talking Heads",
+		song : "Burning Down the House (1983)"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : "Talking Heads",
+		song : "Once In a Lifetime (1980)"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : "Rainbow",
+		song : "I Surrender (1981)"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : "Quiet Riot",
+		song : "The Wild and the Young (1986)"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : "Poison",
+		song : "Talk Dirty to Me (1986)"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : "REO Speedwagon",
+		song : "Keep On Loving You (1980)"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : "Nazareth",
+		song : "Dream On (1982)"
+	},
+	{
+		pack : EN_1980_GR_PACK_1,
+		group : 'Kiss',
+		song : "War Machine (1982)"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : 'Def Leppard',
+		song : "Run Riot (1987)"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : 'Def Leppard',
+		song : "Hysteria (1987)"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : 'Cinderella',
+		song : "Gypsy Road (1988)"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Cars',
+		song : "Drive (1984)"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Boston',
+		song : "Amanda (1986)"
+	},
+	{
+		pack : EN_1980_GR_PACK_1,
+		group : "Heart",
+		song : "Alone (1987)"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Beach Boys',
+		song : "Kokomo (1988)"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Madness',
+		song : "Our House (1982)"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Madness',
+		song : "House of Fun (1982)"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Journey',
+		song : "Don't Stop Believin'(1981)"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Journey',
+		song : "Open Arms (1982)"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Madness',
+		song : "Baggy Trousers (1980)"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "Laid back",
+		song : "White Horse (1983)"
+	},
+	{
+		pack : EN_1980_GR_PACK_1,
+		group : 'Dire Straits',
+		song : "Romeo and Juliet (1981)"
+	},
+	{
+		pack : EN_1980_GR_PACK_1,
+		group : 'Dire Straits',
+		song : "Walk of Life (1985)"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "New Kids On the Block",
+		song : "You Got It (The Right Stuff) (1988)"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : "New Kids On the Block",
+		song : "Hangin' Touch (1989)"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : 'Van Halen',
+		song : "Inside (1986)",
+		ignore : true
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : 'Van Halen',
+		song : "Panama (1984)"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : 'Van Halen',
+		song : "Top Jimmy (1984)",
+		ignore : true
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : "Pink Floyd",
+		song : "Learning to Fly (1987)"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : "Pink Floyd",
+		song : "The Final Cut (1983)"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : "Dio",
+		song : "Evil Eyes (1983)"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : "Dio",
+		song : "The Last In Line (1984)"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : 'Judas Priest',
+		song : "Electric Eye (1982)"
+	},
+	{
+		pack : EN_1980_GR_PACK_2,
+		group : 'Judas Priest',
+		song : "Turbo Lover (1986)"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : 'Ultravox',
+		song : "Hymn (1982)"
 	}
 ];
 
-let en_1980_m_1 =	en_1980_m.filter(item => item.pack == 1);
-let en_1980_m_2 =	en_1980_m.filter(item => item.pack == 2);
-let en_1980_m_3 =	en_1980_m.filter(item => item.pack == 3);
-let en_1980_m_4 =	en_1980_m.filter(item => item.pack == 4);
-let en_1980_m_5 =	en_1980_m.filter(item => item.pack == 5);
+let en_1980_gr_1 =	en_1980_gr.filter(item => item.pack == 1);
+let en_1980_gr_2 =	en_1980_gr.filter(item => item.pack == 2);
+let en_1980_gr_3 =	en_1980_gr.filter(item => item.pack == 3);
+let en_1980_gr_4 =	en_1980_gr.filter(item => item.pack == 4);
+let en_1980_gr_5 =	en_1980_gr.filter(item => item.pack == 5);
 
 
 let music = [
 	{
-		arr: en_1980_m,
+		arr: en_1980_gr,
 		lang: 'en',
 		year: '1980',
-		type: 'm',
+		type: 'gr',
 		packs: [
 				{
-					arr: en_1980_m_1,
-					name: 'EN 1980s Male: Easy',
+					arr: en_1980_gr_1,
+					name: 'EN 1980s Groups: Pop-Rock',
 				},
 				{
-					arr: en_1980_m_2,
-					name: 'EN 1980s Male: Medium',
+					arr: en_1980_gr_2,
+					name: 'EN 1980s Groups: Rock',
 				},
 				{
-					arr: en_1980_m_3,
-					name: 'EN 1980s Male: Hard',
+					arr: en_1980_gr_3,
+					name: 'EN 1980s Groups: Pop Medium',
 				},
 				{
-					arr: en_1980_m_4,
-					name: 'EN 1980s Male: Disco',
+					arr: en_1980_gr_4,
+					name: 'EN 1980s Groups: Pop Hard',
 				},
 				{
-					arr: en_1980_m_5,
-					name: 'EN 1980s Male: Italodisco',
+					arr: en_1980_gr_5,
+					name: 'EN 1980s Groups: Disco',
 				}
 			]
 	}
@@ -1415,12 +1799,12 @@ let generateImgPath;
 function setup(){
 	lang = 'en';
 	year = '1980';
-	artist_type = 'm';
+	artist_type = 'gr';
 	modeToggle = toggleArtist;
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
 	count_time();
-	package_names = en_1980_m_icon;
+	package_names = en_1980_gr_icon;
 	show_packages(package_names.length);
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
 	useUrlParam();
