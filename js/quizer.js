@@ -727,27 +727,27 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_3,
 		group : 'Ozzy Osbourne',
-		song : "Crazy Train"
+		song : "Crazy Train (1980)"
 	},
 	{
 		pack : EN_1980_M_PACK_4,
 		group : 'Danzig',
-		song : "Mother"
+		song : "Mother (1988)"
 	},
 	{
 		pack : EN_1980_M_PACK_3,
 		group : "Prince",
-		song : "When Doves Cry"
+		song : "When Doves Cry (1984)"
 	},
 	{
 		pack : EN_1980_M_PACK_3,
 		group : "Prince",
-		song : "Purple Rain"
+		song : "Purple Rain (1984)"
 	},
 	{
 		pack : EN_1980_M_PACK_3,
 		group : "Prince",
-		song : "Raspberry Beret"
+		song : "Raspberry Beret (1985)"
 	},
 	{
 		pack : EN_1980_M_PACK_1,
@@ -1059,6 +1059,21 @@ let en_1980_m = [
 		pack : EN_1980_M_PACK_5,
 		group : "Zucchero",
 		song : "Pippo (1987)"
+	},
+	{
+		pack : EN_1980_M_PACK_4,
+		group : 'Charles Aznavour',
+		song : "Une vie d'amour (ft Mireille Mathieu) (Bande originale du film 'Téhéran 43') (1981)"
+	},
+	{
+		pack : EN_1980_M_PACK_4,
+		group : "François Feldman",
+		song : "Les valses de Vienne (1989)"
+	},
+	{
+		pack : EN_1980_M_PACK_4,
+		group : "François Feldman",
+		song : "Le mal de toi (1988)"
 	}
 ];
 
