@@ -1073,6 +1073,12 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_4,
 		group : "François Feldman",
+		song : "Le mal de toi (1988)",
+		ignore : true
+	},
+	{
+		pack : EN_1980_M_PACK_4,
+		group : "François Feldman",
 		song : "Le mal de toi (1988)"
 	}
 ];
