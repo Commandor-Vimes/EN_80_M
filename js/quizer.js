@@ -347,7 +347,8 @@ const en_1980_m_icon = [
 	'medium',
 	'hard',
 	'disco',
-	'italo_disco'
+	'italo_disco',
+	'pop'
 ];
 
 const EN_1980_M_PACK_1 = 1;
@@ -355,6 +356,7 @@ const EN_1980_M_PACK_2 = 4;
 const EN_1980_M_PACK_3 = 2;
 const EN_1980_M_PACK_4 = 3;
 const EN_1980_M_PACK_5 = 5;
+const EN_1980_M_PACK_6 = 6;
 
 let en_1980_m = [
 	{
@@ -373,9 +375,9 @@ let en_1980_m = [
 		song : "Right Here Waiting"
 	},
 	{
-		pack : EN_1980_M_PACK_4,
+		pack : EN_1980_M_PACK_6,
 		group : 'Willie Nelson',
-		song : "Always On My Mind"
+		song : "Always On My Mind (1982)"
 	},
 	{
 		pack : EN_1980_M_PACK_3,
@@ -388,22 +390,22 @@ let en_1980_m = [
 		song : "Ebony And Ivory (ft Paul McCartney)"
 	},
 	{
-		pack : EN_1980_M_PACK_4,
+		pack : EN_1980_M_PACK_3,
 		group : 'Bob Marley',
 		song : "Redemption Song (ft The Wailers)"
 	},
 	{
-		pack : EN_1980_M_PACK_4,
+		pack : EN_1980_M_PACK_3,
 		group : 'Bob Marley',
 		song : "Could You be Loved (ft The Wailers)"
 	},
 	{
-		pack : EN_1980_M_PACK_4,
-		group : 'Willie Nelson',
-		song : "Seven Spanish Angels (ft Ray Charles)"
+		pack : EN_1980_M_PACK_3,
+		group : 'Ray Charles',
+		song : "Seven Spanish Angels (ft Willie Nelson) (1984)"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_6,
 		group : "Bobby McFerrin",
 		song : "Dont Worry, Be Happy"
 	},
@@ -501,8 +503,7 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_3,
 		group : "Chris De Burgh",
-		song : "Missing you",
-		year : 1988
+		song : "Missing you (1988)"
 	},
 	{
 		pack : EN_1980_M_PACK_3,
@@ -540,24 +541,24 @@ let en_1980_m = [
 		song : "Careless Whisper"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_6,
 		group : "George Harrison",
 		song : "Got My Mind Set On You"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_6,
 		group : "Joe Esposito",
 		song : "You're The Best Around"
 	},
 	{
 		pack : EN_1980_M_PACK_1,
 		group : "Joe Cocker",
-		song : "Unchain my heart"
+		song : "Unchain my heart (1987)"
 	},
 	{
 		pack : EN_1980_M_PACK_1,
 		group : "Joe Cocker",
-		song : "Up where we belong"
+		song : "Up where we belong (1982)"
 	},
 	{
 		pack : EN_1980_M_PACK_3,
@@ -565,7 +566,7 @@ let en_1980_m = [
 		song : "Say you. say me"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_6,
 		group : "Leonard Cohen",
 		song : "Hallelujah"
 	},
@@ -717,10 +718,10 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_3,
 		group : "Kenny Loggins",
-		song : "Footloose"
+		song : "Footloose (1984)"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_6,
 		group : 'George Thorogood',
 		song : "Bad To The Bone"
 	},
@@ -730,7 +731,7 @@ let en_1980_m = [
 		song : "Crazy Train (1980)"
 	},
 	{
-		pack : EN_1980_M_PACK_4,
+		pack : EN_1980_M_PACK_6,
 		group : 'Danzig',
 		song : "Mother (1988)"
 	},
@@ -833,24 +834,26 @@ let en_1980_m = [
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_4,
+		pack : EN_1980_M_PACK_6,
 		group : "Marvin Gaye",
-		song : "Sexual Healing"
+		song : "Sexual Healing (1982)"
 	},
 	{
-		pack : EN_1980_M_PACK_4,
+		pack : EN_1980_M_PACK_6,
 		group : "Tom Petty",
 		song : "Free Fallin'"
 	},
 	{
 		pack : EN_1980_M_PACK_4,
 		group : "Tom Petty",
-		song : "I Won't Back Down"
+		song : "I Won't Back Down",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_4,
 		group : "Tom Petty",
-		song : "American Girl (ft The Heartbreakers)"
+		song : "American Girl (ft The Heartbreakers)",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_4,
@@ -960,7 +963,7 @@ let en_1980_m = [
 		song : "Slave To Love"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_6,
 		group : "Taco",
 		song : "Puttin’ On The Ritz"
 	},
@@ -1046,7 +1049,7 @@ let en_1980_m = [
 		song : "Oh Pretty Woman (1989)"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
+		pack : EN_1980_M_PACK_6,
 		group : "Ryan Paris",
 		song : "Dolce Vita (1984)"
 	},
@@ -1061,12 +1064,12 @@ let en_1980_m = [
 		song : "Pippo (1987)"
 	},
 	{
-		pack : EN_1980_M_PACK_4,
+		pack : EN_1980_M_PACK_3,
 		group : 'Charles Aznavour',
 		song : "Une vie d'amour (ft Mireille Mathieu) (Bande originale du film 'Téhéran 43') (1981)"
 	},
 	{
-		pack : EN_1980_M_PACK_4,
+		pack : EN_1980_M_PACK_3,
 		group : "François Feldman",
 		song : "Les valses de Vienne (1989)"
 	},
@@ -1077,17 +1080,97 @@ let en_1980_m = [
 		ignore : true
 	},
 	{
-		pack : EN_1980_M_PACK_4,
+		pack : EN_1980_M_PACK_3,
 		group : "François Feldman",
 		song : "Le mal de toi (1988)"
+	},
+	{
+		pack : EN_1980_M_PACK_3,
+		group : 'Richard Marx',
+		song : "Hold On to the Nights (1988)"
+	},
+	{
+		pack : EN_1980_M_PACK_3,
+		group : 'Richard Marx',
+		song : "The Flame of Love (1987)"
+	},
+	{
+		pack : EN_1980_M_PACK_3,
+		group : "Kenny Loggins",
+		song : "Danger Zone (1986)"
+	},
+	{
+		pack : EN_1980_M_PACK_3,
+		group : 'Ozzy Osbourne',
+		song : "Breakin' All the Rules (1988)"
+	},
+	{
+		pack : EN_1980_M_PACK_3,
+		group : 'Ozzy Osbourne',
+		song : "Miracle Man (1988)"
+	},
+	{
+		pack : EN_1980_M_PACK_6,
+		group : 'Barry White',
+		song : "Beware (1981)"
+	},
+	{
+		pack : EN_1980_M_PACK_6,
+		group : 'Corey Hart',
+		song : "Sunglasses at Night (1983)"
+	},
+	{
+		pack : EN_1980_M_PACK_6,
+		group : 'Eddie Murphy',
+		song : "Party All the Time (1985)"
+	},
+	{
+		pack : EN_1980_M_PACK_6,
+		group : 'Eddie Rabbitt',
+		song : "I Love A Rainy Night (1980)"
+	},
+	{
+		pack : EN_1980_M_PACK_6,
+		group : 'Eric Carmen',
+		song : "Hungry Eyes (1987)"
+	},
+	{
+		pack : EN_1980_M_PACK_6,
+		group : 'Gary Moore',
+		song : "Out In the Fields (1985)"
+	},
+	{
+		pack : EN_1980_M_PACK_6,
+		group : 'George Benson',
+		song : "Nothing's Gonna Change  My Love For You (1985)"
+	},
+	{
+		pack : EN_1980_M_PACK_6,
+		group : 'Grandmaster Flash',
+		song : "The Message (ft The Furious Five) (1982)"
+	},
+	{
+		pack : EN_1980_M_PACK_1,
+		group : "Joe Cocker",
+		song : "You Can Leave Your Hat On (1986)"
+	},
+	{
+		pack : EN_1980_M_PACK_6,
+		group : "John Parr",
+		song : "St. Elmo's Fire (1985)"
+	},
+	{
+		pack : EN_1980_M_PACK_3,
+		group : "Rod Stewart",
+		song : "Young Turks (1981)"
 	}
 ];
 
 let en_1980_m_1 =	en_1980_m.filter(item => item.pack == 1);
 let en_1980_m_2 =	en_1980_m.filter(item => item.pack == 2);
-let en_1980_m_3 =	en_1980_m.filter(item => item.pack == 3);
 let en_1980_m_4 =	en_1980_m.filter(item => item.pack == 4);
 let en_1980_m_5 =	en_1980_m.filter(item => item.pack == 5);
+let en_1980_m_6 =	en_1980_m.filter(item => item.pack == 6);
 
 
 let music = [
@@ -1106,16 +1189,16 @@ let music = [
 					name: 'EN 1980s Male: Medium',
 				},
 				{
-					arr: en_1980_m_3,
-					name: 'EN 1980s Male: Hard',
-				},
-				{
 					arr: en_1980_m_4,
 					name: 'EN 1980s Male: Disco',
 				},
 				{
 					arr: en_1980_m_5,
 					name: 'EN 1980s Male: Italodisco',
+				},
+				{
+					arr: en_1980_m_6,
+					name: 'EN 1980s Male: One Hit Wonders',
 				}
 			]
 	}
@@ -1129,6 +1212,7 @@ function map_songs(){
 	$('#mirror').hide();
 	$('#map').hide();
 	$('#package_content').hide();
+	$('#sec_15').show();
 	$('#mapping_content').show();
 	toggleLearn();
 	for(var j=0; j < music.length; j++){
@@ -1467,6 +1551,7 @@ function back_to_browser(){
 function back_to_current_pack(){
 	back = back_to_browser;
 	$('#mapping_content').hide();
+	$('#sec_15').hide();
 	$('#map').show();
 	package_num(pack_num);
 }
