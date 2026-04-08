@@ -616,17 +616,20 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_2,
 		group : "Savage",
-		song : "Goodbye"
+		song : "Goodbye",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_2,
 		group : "Savage",
-		song : "Don'T Cry Tonight"
+		song : "Don'T Cry Tonight",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_2,
 		group : "Savage",
-		song : "Radio"
+		song : "Radio",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_2,
@@ -1163,6 +1166,11 @@ let en_1980_m = [
 		pack : EN_1980_M_PACK_3,
 		group : "Rod Stewart",
 		song : "Young Turks (1981)"
+	},
+	{
+		pack : EN_1980_M_PACK_3,
+		group : "Rod Stewart",
+		song : "Tear It Up (1981)"
 	}
 ];
 
@@ -1212,7 +1220,7 @@ function map_songs(){
 	$('#mirror').hide();
 	$('#map').hide();
 	$('#package_content').hide();
-	$('#sec_15').show();
+	$('#sec_15_hist').show();
 	$('#mapping_content').show();
 	toggleLearn();
 	for(var j=0; j < music.length; j++){
@@ -1551,7 +1559,15 @@ function back_to_browser(){
 function back_to_current_pack(){
 	back = back_to_browser;
 	$('#mapping_content').hide();
-	$('#sec_15').hide();
+	$('#sec_15_hist').hide();
+	song_stop();
 	$('#map').show();
 	package_num(pack_num);
+}
+
+function song_stop() {
+	if(audio){
+		audio.pause();
+		audio = null;
+	}
 }
