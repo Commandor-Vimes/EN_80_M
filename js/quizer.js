@@ -1171,6 +1171,16 @@ let en_1980_m = [
 		pack : EN_1980_M_PACK_3,
 		group : "Rod Stewart",
 		song : "Tear It Up (1981)"
+	},
+	{
+		pack : EN_1980_M_PACK_3,
+		group : "Johnny Logan",
+		song : "What's Another Year (1980)"
+	},
+	{
+		pack : EN_1980_M_PACK_3,
+		group : "Johnny Logan",
+		song : "Hold Me Now (1987)"
 	}
 ];
 
