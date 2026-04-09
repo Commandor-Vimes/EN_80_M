@@ -558,7 +558,8 @@ let en_1980_m = [
 	{
 		pack : EN_1980_M_PACK_1,
 		group : "Joe Cocker",
-		song : "Up where we belong (1982)"
+		song : "Up where we belong (1982)",
+		ignore : true
 	},
 	{
 		pack : EN_1980_M_PACK_3,
